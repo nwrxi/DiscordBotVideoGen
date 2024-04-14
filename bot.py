@@ -2,7 +2,7 @@ import discord
 import asyncio
 from discord.ext import commands
 from queue_handler import QueueHandler
-from config import TOKEN
+from config import DISCORD_TOKEN
 import logging
 
 class MyClient(discord.Client):
@@ -42,4 +42,4 @@ intents.messages = True
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run(TOKEN)
+client.run(DISCORD_TOKEN)

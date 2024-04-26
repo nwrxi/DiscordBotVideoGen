@@ -1,6 +1,7 @@
 from openai import AsyncOpenAI
 import logging
 import os
+import asyncio
 
 class OpenAiApiHandler:
     def __init__(self, api_key=None, model='gpt-3.5-turbo'):

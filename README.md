@@ -3,7 +3,7 @@
 
 ## Discord Bot Setup Guide
 
-This guide will help you set up the Discord bot and SadTalker environments using Conda.
+IMPORTANT: This repo is used for testing only and may or may not work and is in no way finished and probably will never be finished.
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ git submodule update --init --recursive`
 
 ## Environment Setup
 
-It's recommended to create separate Conda environments for the Discord bot and SadTalker to manage dependencies efficiently.
+It's required to create separate Conda environments for the Discord bot and SadTalker.
 
 ### 1. Discord Bot Environment
 
@@ -41,3 +41,14 @@ Install the necessary Python packages:
 ### 2. SadTalker Environment
 
 Follow the [SadTalker installation instructions](https://github.com/Winfredy/SadTalker#installation) to install all required dependencies.
+
+#### Configuration
+
+Create .env file in root directory of the project. Following fields can be added:
+
+`ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
+DISCORD_TOKEN=
+AI_HANDLER_TYPE=`
+
+Where AI_HANDLER_TYPE can be either chatgpt or claude

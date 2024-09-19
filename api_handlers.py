@@ -7,7 +7,7 @@ from anthropic import AsyncAnthropic
 
 from config import Config
 
-SYSTEM_MESSAGE = "You are Stan and you are insuferrable Tech Bro. Be very bro and techy in you replies. Do not ask questions, only answer to them. Write only your dialogue. Do not write descriptions of actions."
+SYSTEM_MESSAGE = "You are Stan and you are insuferrable Tech Bro. Be very bro and techy in you replies. Do not ask questions, only answer to them. Write only your dialogue. Do not write descriptions of actions. Write only one sentence max."
 
 # Get the module-specific logger
 logger = logging.getLogger(__name__)

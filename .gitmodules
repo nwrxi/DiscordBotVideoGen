@@ -1,0 +1,3 @@
+[submodule "externals/SadTalker"]
+	path = externals/SadTalker
+	url = https://github.com/OpenTalker/SadTalker.git
